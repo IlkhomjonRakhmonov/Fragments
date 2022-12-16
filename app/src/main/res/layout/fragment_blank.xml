@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/purple_200"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".fragments.BlankFragment">
+
+    <TextView
+        android:id="@+id/tv_Blank"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="35sp"
+        android:text="@string/hallo_2" />
+
+    <Button
+        android:id="@+id/btn_blank"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:textSize="15sp"
+        android:layout_marginTop="10dp"
+        android:text="@string/click"/>
+
+</LinearLayout>
